@@ -1,3 +1,101 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
-
-
+    /* Use your own code or past solution for Great Idea Web Page CSS here! */
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        /* border: 1px solid grey; */
+    }
+    
+    nav {
+        height: 15vh;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        padding: 0 5%;
+    }
+    
+    element.style {
+        display: flex;
+        padding: inherit;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 12%;
+        border-bottom: 1px solid grey;
+    }
+    
+    .title h1 {
+        font-size: 50px;
+    }
+    
+    .container-top {
+        display: flex;
+        margin: 2%;
+    }
+    
+    .middle-img {
+        padding: 2% 0;
+    }
+    
+    .bottom {
+        display: flex;
+        margin: 2%;
+    }
+    
+    #Contact {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    footer {
+        display: block align-items: center;
+    }
+    
+    @media (max-width: 800px) {
+        .globe {
+            display: none;
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 5%;
+            text-align: center;
+            padding-bottom: 4%;
+        }
+    }
+    
+    @media(max-width: 500px) {
+        nav {
+            height: 25vh;
+        }
+        .links {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .container-top {
+            padding-top: 3%;
+            display: flex;
+            flex-direction: column;
+        }
+        .bottom {
+            padding-top: 3%;
+            display: flex;
+            flex-direction: column;
+        }
+        #Contacts {
+            padding-top: 3%;
+        }
+        footer {
+            padding-top: 3%;
+            display: block;
+            text-align: center;
+        }
+    }
